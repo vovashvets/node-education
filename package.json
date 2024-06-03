@@ -1,0 +1,21 @@
+{
+  "name": "node-education",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Vova Shvets Node.js self education",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vova Shvets",
+  "license": "ISC",
+  "nodemonConfig": {
+    "ignore": ["**/test/**", "**/docs/**"],
+    "delay": 2500
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "nodemon": "^3.1.2",
+    "validator": "^13.12.0"
+  }
+}
