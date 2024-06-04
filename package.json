@@ -10,12 +10,16 @@
   "author": "Vova Shvets",
   "license": "ISC",
   "nodemonConfig": {
-    "ignore": ["**/test/**", "**/docs/**"],
+    "ignore": [
+      "**/test/**",
+      "**/docs/**"
+    ],
     "delay": 2500
   },
   "dependencies": {
     "chalk": "^5.3.0",
     "nodemon": "^3.1.2",
-    "validator": "^13.12.0"
+    "validator": "^13.12.0",
+    "yargs": "^17.7.2"
   }
 }
