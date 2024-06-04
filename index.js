@@ -17,6 +17,7 @@ yargs(hideBin(process.argv))
     .option('title', {
       alias: 't',
       type: 'string',
-      description: 'Note title'
+      description: 'Note title',
+      demandOption: true // required
     })
     .parse()
