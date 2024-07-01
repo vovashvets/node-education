@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import yargs from "yargs";
 import {hideBin} from "yargs/helpers";
-import {addNote, removeNote} from "./notes/notes.js";
+import {addNote, removeNote} from "./notes.js";
 
 yargs(hideBin(process.argv))
     // node index.js add --title="My title" --body="My body"

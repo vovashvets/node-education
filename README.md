@@ -1,2 +1,0 @@
-# node-education
-Self education
